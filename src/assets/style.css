@@ -1,0 +1,364 @@
+/* Colors Pallette */
+/* source : https://www.figma.com/file/x1bkO3alpmGQFtysh9Lmn7/Task-5-Ecommerce?node-id=0%3A1 */
+:root {
+    --blue: #002772;
+    --light-blue: #D6E6FF;
+    --light-pink: #FDE2FF;
+    --dark-gray: #1E1E1E;
+    --dark-violet: #720060;
+    --light-sky-blue: #D6E6FF;
+    --light-gray: #3F3F3F;
+    --silver: #D8D7D7;
+    --light-silver: #DCDCDC;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 200px !important;
+}
+
+/* Women's Clothing */
+.bg-header-womens-clothing {
+    height: 548px;
+    background: var(--light-pink);
+}
+
+.womens-clothing-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--white);
+    position: absolute;
+    padding: 2.5rem;
+    width: 80%;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    gap: 3.5rem 3.5rem;
+}
+
+.womens-clothing-container .img-product {
+    width: 306px;
+    height: 407px;
+}
+
+.womens-clothing-container h1 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: var(--dark-violet);
+    margin-bottom: 25px;
+}
+
+.womens-clothing-container h2, .womens-clothing-container .rating-container h2 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--light-gray);
+}
+
+.womens-clothing-container .title-and-rating-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.womens-clothing-container .title-and-rating-container .rating-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.3rem 0.3rem;
+}
+
+.womens-clothing-container .title-and-rating-container .rating-container .star-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.15rem 0.15rem;
+}
+
+.womens-clothing-container .line {
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.womens-clothing-container p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--dark-gray);
+    margin-top: 25px;
+    margin-bottom: 62.5px;
+}
+
+.womens-clothing-container h3 {
+    font-weight: 600;
+    font-size: 28px;
+    color: var(--dark-violet);
+    margin-top: 15px;
+}
+
+.womens-clothing-container .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.womens-clothing-container .button-container .buy-now {
+    background: var(--dark-violet);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--white);
+    padding: 0.5rem 5rem;
+    cursor: pointer;
+}
+
+.womens-clothing-container .button-container .buy-now:hover {
+    background: var(--light-pink);
+    color: var(--black);
+    border: 3px solid var(--dark-violet);
+}
+
+.womens-clothing-container .button-container .next-product {
+    background: var(--white);
+    border: 3px solid var(--dark-violet);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--dark-violet);
+    padding: 0.5rem 5rem;
+    cursor: pointer;
+}
+
+.womens-clothing-container .button-container .next-product:hover {
+    background: var(--light-pink);
+    color: var(--black);
+}
+
+/* Men's Clothing */
+.bg-header-mens-clothing {
+    height: 548px;
+    background: var(--light-blue);
+}
+
+.mens-clothing-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--white);
+    position: absolute;
+    padding: 2.5rem;
+    width: 80%;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    gap: 3.5rem 3.5rem;
+}
+
+.mens-clothing-container .img-product {
+    width: 306px;
+    height: 407px;
+}
+
+.mens-clothing-container h1 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: var(--blue);
+    margin-bottom: 25px;
+}
+
+.mens-clothing-container h2, .mens-clothing-container .rating-container h2 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--light-gray);
+}
+
+.mens-clothing-container .title-and-rating-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.mens-clothing-container .title-and-rating-container .rating-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.3rem 0.3rem;
+}
+
+.mens-clothing-container .title-and-rating-container .rating-container .star-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.15rem 0.15rem;
+}
+
+.mens-clothing-container .line {
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.mens-clothing-container p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--dark-gray);
+    margin-top: 25px;
+    margin-bottom: 62.5px;
+}
+
+.mens-clothing-container h3 {
+    font-weight: 600;
+    font-size: 28px;
+    color: var(--blue);
+    margin-top: 15px;
+}
+
+.mens-clothing-container .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.mens-clothing-container .button-container .buy-now {
+    background: var(--blue);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--white);
+    padding: 0.5rem 5rem;
+    cursor: pointer;
+}
+
+.mens-clothing-container .button-container .buy-now:hover {
+    background: var(--light-blue);
+    color: var(--black);
+    border: 3px solid var(--blue);
+}
+
+.mens-clothing-container .button-container .next-product {
+    background: var(--white);
+    border: 3px solid var(--blue);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--blue);
+    padding: 0.5rem 5rem;
+    cursor: pointer;
+}
+
+.mens-clothing-container .button-container .next-product:hover {
+    background: var(--blue);
+    color: var(--white);
+}
+
+/* Unavailable Product */
+.bg-header-unavailable {
+    height: 548px;
+    background: var(--silver);
+}
+
+.unavailable-container {
+    background: var(--white);
+    position: absolute;
+    padding: 2.5rem;
+    width: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    gap: 3.5rem 3.5rem;
+}
+
+.unavailable-container img { 
+    width: 100%;
+}
+
+.unavailable-container .img-message-button-container { 
+    position: relative;
+}
+
+.unavailable-container .img-message-button-container .message-button-container { 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.unavailable-container .img-message-button-container .message-button-container p { 
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.unavailable-container .img-message-button-container .message-button-container button { 
+    background: #FFFFFF;
+    border: 3px solid var(--black);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--light-gray);
+    padding: 0.5rem 8rem;
+    cursor: pointer;
+}
+
+.unavailable-container .img-message-button-container .message-button-container button:hover { 
+    border: 3px solid var(--blue);
+    color: var(--blue);
+}
+
+/* Loader */
+/* source : https://css-loaders.com/progress */
+.loader {
+    width: 6%;
+    aspect-ratio: 1;
+    border: 15px solid #ddd;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    z-index: 1000000;
+}
+
+.loader::before {
+    content: "";
+    position: absolute;
+    inset: -15px;
+    border-radius: 50%;
+    border: 15px solid #514b82;
+    animation: l18 2s infinite linear;
+}
+
+@keyframes l18 {
+    0%   {clip-path:polygon(50% 50%,0 0,0    0,0    0   ,0    0   ,0    0   )}
+    25%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0   ,100% 0   ,100% 0   )}
+    50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+    75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0    100%,0    100%)}
+    100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0    100%,0    0   )}
+}
