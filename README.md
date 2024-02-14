@@ -29,3 +29,5 @@ https://medium.com/@biplavmazumdar5/async-await-with-try-and-catch-get-api-8df3a
 https://stackoverflow.com/questions/5223/length-of-a-javascript-object
 
 https://css-loaders.com/progress/
+
+https://medium.com/@rachidsakara/how-to-deploy-vue-js-applications-with-firebase-hosting-40cfa7f724e4
